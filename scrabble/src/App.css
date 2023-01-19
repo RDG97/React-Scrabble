@@ -14,6 +14,12 @@
   background-color: #777776;
 }
 
+.tiler {
+  height: 65px;
+  width: 65px;
+  background-color: #8F8F8F;
+}
+
 .test {
   width: 65px;
 }
@@ -22,7 +28,21 @@
   background-color: #8F8F8F;
 }
 
+.tw {
+  background-color: #CB0F0F;
+}
 
+.dl {
+  background-color: #08FEF6;
+}
+
+.dw {
+  background-color: #EC4CA1;
+}
+
+.tl {
+  background-color: #06BAC6;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
