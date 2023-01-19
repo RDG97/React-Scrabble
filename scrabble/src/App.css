@@ -11,10 +11,15 @@
 .tile {
   height: 65px;
   width: 65px;
+  background-color: #777776;
 }
 
 .test {
   width: 65px;
+}
+
+.board {
+  background-color: #8F8F8F;
 }
 
 
