@@ -3,4 +3,12 @@ let texttiles = '{ "tiles" : [' +
 '{ "letter":"B" , "point":"3" },' +
 '{ "letter":"C" , "point":"3" } ]}';
 
-const tiles = JSON.parse(texttiles)
+
+
+export default function Set(props) { 
+    const tile = JSON.parse(texttiles)
+    //props.setTiles(tile)
+
+
+    
+}
