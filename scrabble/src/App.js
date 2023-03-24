@@ -54,8 +54,9 @@ function start() {
   for (let i = 0; i < letters.length; i++) {
     console.log('current letter: ', letters[i])
     let meme = letters[i]
-    console.log('the real test', test.letters[meme])
+    console.log('letter data: ', test.letters[meme])
   }
+  let currGameTile = []
 }
 start()
 
