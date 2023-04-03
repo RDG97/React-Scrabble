@@ -48,13 +48,17 @@ let letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
   const tiles = tileBank;
   console.log(tiles)
   console.log(letters);
-
+let gameTile = []
 
 function start() {
   for (let i = 0; i < letters.length; i++) {
     console.log('current letter: ', letters[i])
     let meme = letters[i]
-    console.log('letter data: ', test.letters[meme])
+    console.log('letter data: ', test.letters[meme].tiles)
+    for (let x = 0; x < test.letters[meme].tiles; x++) {
+        gameTile.push(letters[i])
+    }
+    console.log(gameTile)
   }
   let currGameTile = []
 }
